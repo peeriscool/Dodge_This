@@ -5,12 +5,15 @@ using Kinect = Windows.Kinect;
 
 public class BodySourceView : MonoBehaviour 
 {
+    public delegate void ThreshHoldReached();
+    public event ThreshHoldReached execute;
+
     public Material BoneMaterial;
     public GameObject BodySourceManager;
     
     private Dictionary<ulong, GameObject> _Bodies = new Dictionary<ulong, GameObject>();
     private BodySourceManager _BodyManager;
-    
+    protected Transform[] trackingdata = new Transform[30];
     private Dictionary<Kinect.JointType, Kinect.JointType> _BoneMap = new Dictionary<Kinect.JointType, Kinect.JointType>()
     {
         { Kinect.JointType.FootLeft, Kinect.JointType.AnkleLeft },
@@ -137,32 +140,77 @@ public class BodySourceView : MonoBehaviour
             
             if(_BoneMap.ContainsKey(jt))
             {
-                targetJoint = body.Joints[_BoneMap[jt]];                
+                targetJoint = body.Joints[_BoneMap[jt]];
             }
             
             Transform jointObj = bodyObject.transform.Find(jt.ToString());
             jointObj.localPosition = GetVector3FromJoint(sourceJoint);
-            
+             
             LineRenderer lr = jointObj.GetComponent<LineRenderer>();
             if(targetJoint.HasValue)
             {
                 lr.SetPosition(0, jointObj.localPosition);
                 lr.SetPosition(1, GetVector3FromJoint(targetJoint.Value));
                 lr.SetColors(GetColorForState (sourceJoint.TrackingState), GetColorForState(targetJoint.Value.TrackingState));
+                    for (int i = 0; i < trackingdata.Length; i++)//make batch of 30 positions
+                    {
+                        trackingdata.SetValue(jointObj, i);
+                        Debug.Log("Filling array");
+
+                    }
             }
             else
             {
                 lr.enabled = false;
             }
-            if (jt == Kinect.JointType.HandLeft)
-            {
-                GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                cube.transform.position = jointObj.transform.position;
-                Debug.Log("hand");
-            }
+          
+
+            //Peer code
+            //if (jt == Kinect.JointType.HandLeft)
+            //{
+            //    GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            //    cube.transform.position = jointObj.transform.position;
+            //    Debug.Log("hand");
+            //}
         }
     }
-    
+
+    public void StartProcess()
+    {
+        Debug.Log("Process Started!");
+        // some code here..
+        getTransformdata();
+        readdata();
+    }
+    protected virtual void readdata() //protected virtual method
+    {
+        //if ProcessCompleted is not null then call delegate
+        execute?.Invoke();
+    }
+    public Transform[] getTransformdata()//peer code
+    {
+        //send vector3 instead of transform?
+        // Vector3 data = new Vector3();
+        //for(int i = 0; i < trackingdata.Length; i++)
+        //{
+        //    data = trackingdata[i].position;
+        //    // trackingdata[]
+        //    try
+        //    {
+        //        if (data.Equals(trackingdata[i + 1]))//check similar
+        //        {
+
+        //        }
+        //    }
+        //    catch (System.Exception)
+        //    {
+
+        //        throw;
+        //    }
+           
+        //}
+        return trackingdata;
+    }
     private static Color GetColorForState(Kinect.TrackingState state)
     {
         switch (state)
