@@ -4,28 +4,35 @@ using UnityEngine;
 
 public class ObjectSpawning : MonoBehaviour
 {
+    // References
+    public LevelManager levelManager;
     // TEMP SPAWNING FOR TESTING
-    public GameObject shootShape;
-    public bool localTrigger = false;
-    public ObjectSpawning(GameObject _shootShape) //empty construct
+    public GameObject spawnableShape;
+    public bool isSpawning = false;
+    /*public ObjectSpawning(GameObject _shootShape)
     {
         shootShape = _shootShape;
-    }
-    public void Tick()
+    }*/
+    void Update()
     {
         // SPAWN FOR TESTING 
-        if (localTrigger)
+        if (isSpawning == false && levelManager.levelActive)
         { 
             { 
                 StartCoroutine(SpawnObjectOnRythm());
-                localTrigger = false;
+                isSpawning = true;
             }
-        }
+        } 
     }
     IEnumerator SpawnObjectOnRythm()
     { 
         yield return new WaitForSeconds(1);
-        print("kaas");
-        localTrigger = true;
+        print("Spawned tempshape");
+        Instantiate(spawnableShape, transform.position, transform.rotation);
+        //Keep spawning while game is active
+        if (isSpawning == true)
+        {
+            StartCoroutine(SpawnObjectOnRythm());
+        }
     }
 }

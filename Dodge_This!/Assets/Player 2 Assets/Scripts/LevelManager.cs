@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public GameObject spawnable;
+    // References
     ObjectSpawning objectSpawning;
+    // Level state
     public bool levelActive = false;
+    public int playerThatWon = 0; // 0 = No one has won (yet)
     void Start()
     {
-        objectSpawning = new ObjectSpawning(spawnable);
-        objectSpawning.localTrigger = levelActive;
+
     }
 
     void Update()
     {
-        objectSpawning.Tick();
+
     }
 }

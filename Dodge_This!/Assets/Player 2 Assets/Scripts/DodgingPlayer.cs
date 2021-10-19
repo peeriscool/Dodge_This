@@ -15,6 +15,7 @@ public class DodgingPlayer : MonoBehaviour
     Vector3 velocity;
     public static bool isGrounded;
     public float jumpHeight = 5f;
+    // Gravity
     public float gravity = -9.81f;
     // Crouch variables
     public bool isCrouching = false;
@@ -23,8 +24,7 @@ public class DodgingPlayer : MonoBehaviour
     public bool cantWalkForward = false;
     void Start()
     {
-        // Lock cursor
-        Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     void Update()
@@ -42,11 +42,11 @@ public class DodgingPlayer : MonoBehaviour
             //  When in inviswall
             if (isInInvisibleWall == true && cantWalkForward == true && direction.z <= 0) // If in frontwall & not going forward
             {
-                characterController.Move(direction * speed * Time.deltaTime); // Move
+                characterController.Move(direction * speed * Time.deltaTime); // Move not forwards
             } 
             else if (isInInvisibleWall == true && cantWalkForward == false && direction.z >= 0) // If in backwall & not going backward
             {
-                characterController.Move(direction * speed * Time.deltaTime); // Move
+                characterController.Move(direction * speed * Time.deltaTime); // Move not backwards
             }
             // When out of wall
             else if (isInInvisibleWall == false) 
@@ -68,6 +68,6 @@ public class DodgingPlayer : MonoBehaviour
                 velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             }
         }
-        // Crouching
+        // Turning playerbody
     }
 }
