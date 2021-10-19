@@ -8,12 +8,9 @@ public class DrawMesh : MonoBehaviour
     Mesh mesh;
     Vector3[] vertices;
     int[] triangles;
-    public BodySourceView registerhands;
+ //   public BodySourceView registerhands;
     // public GameObject bodysourceholder;
-   
-
-   
-
+  
     void Start()
     {
         mesh = new Mesh();
@@ -29,11 +26,10 @@ public class DrawMesh : MonoBehaviour
 
     void CommunicateBodymanager()
     {
-        if (registerhands == null)
-        {
-            return;
-        }
-        Eventcontrol();
+        //if (registerhands == null)
+        //{
+        //    return;
+        //};
             //Transform[] data = registerhands.getTransformdata();
             //for (int i = 0; i < data.Length; i++)
             //{
@@ -57,11 +53,7 @@ public class DrawMesh : MonoBehaviour
             0,1,2,1,3,2
         };
     }
-    void Eventcontrol()
-    {
-        registerhands.execute += CreateShape;
-        registerhands.StartProcess();
-    }
+
     void UpdateMesh()
     {
         mesh.Clear();
