@@ -4,21 +4,45 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter))]
 public class DrawMesh : MonoBehaviour
 {
-    //https://www.youtube.com/watch?v=eJEpeUH1EMg
+    //orignal source: https://www.youtube.com/watch?v=eJEpeUH1EMg
     Mesh mesh;
     Vector3[] vertices;
     int[] triangles;
  //   public BodySourceView registerhands;
     // public GameObject bodysourceholder;
   
-    void Start()
+    public DrawMesh(GameObject Owner,List<Vector3> _data,Mesh _mesh)
     {
+        vertices = _data.ToArray();
         mesh = new Mesh();
-        GetComponent<MeshFilter>().mesh = mesh;
-        CreateShape();
+        Owner.gameObject.AddComponent<MeshFilter>();
+        Owner.gameObject.GetComponent<MeshFilter>().mesh = _mesh;
+        triangles = new int[]
+        {
+            0,1,2,1,3,2
+        };
         UpdateMesh();
-     //   registerhands = bodysourceholder.GetComponent<BodySourceView>();
     }
+    public void Init(GameObject Owner, List<Vector3> _data, Mesh _mesh)
+    {
+        vertices = _data.ToArray();
+        mesh = new Mesh();
+        Owner.gameObject.AddComponent<MeshRenderer>();
+        Owner.gameObject.GetComponent<MeshFilter>().mesh = _mesh;
+        triangles = new int[]
+        {
+            0,1,2,1,3,2
+        };
+        UpdateMesh();
+    }
+    //void Start()
+    //{
+    //    mesh = new Mesh();
+    //    GetComponent<MeshFilter>().mesh = mesh;
+    ////    CreateShape();
+    //    UpdateMesh();
+    //    registerhands = bodysourceholder.GetComponent<BodySourceView>();
+    //}
     private void Update()
     {
         CommunicateBodymanager();

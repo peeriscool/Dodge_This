@@ -7,6 +7,7 @@ public class BodySourceView : MonoBehaviour
 {
     public Material BoneMaterial;
     public GameObject BodySourceManager;
+    private List<GameObject> PlaceholdIndicators = new List<GameObject>();
   
     private Dictionary<ulong, GameObject> _Bodies = new Dictionary<ulong, GameObject>();
     private BodySourceManager _BodyManager;
@@ -178,9 +179,24 @@ public class BodySourceView : MonoBehaviour
                 if(i == 60)
                 {
                     GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    PlaceholdIndicators.Add(cube);
                     cube.transform.position = jointObj.transform.position;
+                    MeshManager.AddSpawnPoints(jointObj.transform.position);
+                   if(MeshManager.Check())
+                    {
+                        //call drawmesh
+                        GameObject form = new GameObject();                     
+                        form.AddComponent<DrawMesh>();
+                        form.GetComponent<DrawMesh>().Init(form, MeshManager.GetSpawnPoints(), new Mesh());
+                        MeshManager.Flush();
+                        //reset trackingdata and remove cubes
+                        foreach (GameObject item in PlaceholdIndicators)
+                        {
+                            Destroy(item);
+                        }
+                    }
                     Debug.Log("F" + trackingdata.Count);
-                    //call drawmesh
+                   
                    i = 0;
                 }
             }
