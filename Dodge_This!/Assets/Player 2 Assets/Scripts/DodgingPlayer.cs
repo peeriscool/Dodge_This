@@ -32,15 +32,12 @@ public class DodgingPlayer : MonoBehaviour
 
     void Update()
     {
-        // Get movement input
-        if (playerHP.playerDead == false)
+        // Get movement & jump input
+        if (playerHP.playerDead == false && levelManager.levelActive == true)
         {
             //Multiple controller input
-            if (playerIndex == 1)
-            {
-                horizontal = Input.GetAxisRaw("Horizontal");
-                vertical = Input.GetAxisRaw("Vertical");
-            }
+            GetMoveInputForEachPlayer();
+            GetJumpInputsForEachPlayer();
         }
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
         // Gravity
@@ -53,21 +50,61 @@ public class DodgingPlayer : MonoBehaviour
         }
         // Jumping
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
-        if (playerHP.playerDead == false)
+    }
+    void GetMoveInputForEachPlayer()
+    {
+        if (playerIndex == 0)
         {
-            if (Input.GetButtonDown("Jump"))
-            {
-                if (isGrounded)
-                {
-                    velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-                }
-            }
+            horizontal = Input.GetAxisRaw("Horizontal");
+            vertical = Input.GetAxisRaw("Vertical");
         }
-        // Turning playerbody
+        else if (playerIndex == 1)
+        {
+            horizontal = Input.GetAxisRaw("Horizontal1");
+            vertical = Input.GetAxisRaw("Vertical1");
+        }
+        else if (playerIndex == 2)
+        {
+            horizontal = Input.GetAxisRaw("Horizontal2");
+            vertical = Input.GetAxisRaw("Vertical2");
+        }
+        else if (playerIndex == 3)
+        {
+            horizontal = Input.GetAxisRaw("Horizontal3");
+            vertical = Input.GetAxisRaw("Vertical3");
+        }
+    }
+
+    void GetJumpInputsForEachPlayer()
+    {
+        if (playerIndex == 0 && Input.GetButtonDown("Jump"))
+        {
+            Jump();
+            print(playerIndex + " Jump, isGrounded =" + isGrounded);
+        } else if (playerIndex == 1 && Input.GetButtonDown("Jump1"))
+        {
+            Jump();
+            print(playerIndex + " Jump, isGrounded =" + isGrounded);
+        } else if (playerIndex == 2 && Input.GetButtonDown("Jump2"))
+        {
+            Jump();
+            print(playerIndex + " Jump, isGrounded =" + isGrounded);
+        } else if (playerIndex == 3 && Input.GetButtonDown("Jump3"))
+        {
+            Jump();
+            print(playerIndex + " Jump, isGrounded =" + isGrounded);
+        }
+    }
+    void Jump()
+    {
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        if (isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
     }
 }

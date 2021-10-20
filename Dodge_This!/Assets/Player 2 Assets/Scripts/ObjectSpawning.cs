@@ -27,7 +27,7 @@ public class ObjectSpawning : MonoBehaviour
     IEnumerator SpawnObjectOnRythm()
     { 
         yield return new WaitForSeconds(1);
-        print("Spawned tempshape");
+        //print("Spawned tempshape");
         Instantiate(spawnableShape, transform.position, transform.rotation);
         //Keep spawning while game is active
         if (isSpawning == true)

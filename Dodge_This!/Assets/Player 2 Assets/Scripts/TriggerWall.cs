@@ -13,7 +13,7 @@ public class TriggerWall : MonoBehaviour
         // When shape in back wall trigger
         if (other.tag == "Shape")
         {
-            print("Shape in back wall trigger");
+            //print("Shape in back wall trigger");
             Destroy(other.gameObject);
         }
     }
