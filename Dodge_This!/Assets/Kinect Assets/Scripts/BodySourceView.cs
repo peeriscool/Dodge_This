@@ -188,14 +188,14 @@ public class BodySourceView : MonoBehaviour
                         GameObject form = new GameObject();                     
                         form.AddComponent<DrawMesh>();
                         form.GetComponent<DrawMesh>().Init(form, MeshManager.GetSpawnPoints(), new Mesh());
-                        MeshManager.Flush();
+                        MeshManager.Flush(); //empties spawnpoints
                         //reset trackingdata and remove cubes
                         foreach (GameObject item in PlaceholdIndicators)
                         {
                             Destroy(item);
                         }
                     }
-                    Debug.Log("F" + trackingdata.Count);
+                    Debug.Log("Number of tracking vectors: " + trackingdata.Count);
                    
                    i = 0;
                 }

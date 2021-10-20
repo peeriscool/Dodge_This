@@ -11,22 +11,10 @@ public class DrawMesh : MonoBehaviour
  //   public BodySourceView registerhands;
     // public GameObject bodysourceholder;
   
-    public DrawMesh(GameObject Owner,List<Vector3> _data,Mesh _mesh)
-    {
-        vertices = _data.ToArray();
-        mesh = new Mesh();
-        Owner.gameObject.AddComponent<MeshFilter>();
-        Owner.gameObject.GetComponent<MeshFilter>().mesh = _mesh;
-        triangles = new int[]
-        {
-            0,1,2,1,3,2
-        };
-        UpdateMesh();
-    }
     public void Init(GameObject Owner, List<Vector3> _data, Mesh _mesh)
     {
         vertices = _data.ToArray();
-        mesh = new Mesh();
+        mesh = _mesh;
         Owner.gameObject.AddComponent<MeshRenderer>();
         Owner.gameObject.GetComponent<MeshFilter>().mesh = _mesh;
         triangles = new int[]

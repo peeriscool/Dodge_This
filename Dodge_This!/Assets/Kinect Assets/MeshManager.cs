@@ -31,10 +31,8 @@ public static class MeshManager
     {
         if (spawnpoints.Count == 4) //make vertex
         {
-            //ToDo call DrawMesh from bool get spawnpoints
             Debug.Log("we found 4 points for a mesh reseting and storing data");
             DataBank.Add(spawnpoints);
-            
             return true;
         }
         else return false;
