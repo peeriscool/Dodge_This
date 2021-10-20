@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7519849170067123705}
   - component: {fileID: 8225793096099057468}
   - component: {fileID: 1013681208387774120}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TempShape
   m_TagString: Shape
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1013681208387774120}
-  shapeSpeed: 1.5
+  shapeSpeed: 0.3
   moving: 1
 --- !u!65 &8225793096099057468
 BoxCollider:
@@ -105,7 +105,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8224090706005042515}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}

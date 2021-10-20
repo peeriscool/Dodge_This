@@ -6,7 +6,13 @@ public class DodgingPlayer : MonoBehaviour
 {
     // References
     public CharacterController characterController;
+    public PlayerHP playerHP;
+    public LevelManager levelManager;
+    // Multiple players
+    public int playerIndex = 0;
     // Walk variables
+    float horizontal;
+    float vertical;
     public float speed;
     // Jump variables
     public Transform groundCheck;
@@ -19,9 +25,6 @@ public class DodgingPlayer : MonoBehaviour
     public float gravity = -9.81f;
     // Crouch variables
     public bool isCrouching = false;
-    // Invisible walls
-    public bool isInInvisibleWall = false;
-    public bool cantWalkForward = false;
     void Start()
     {
 
@@ -30,8 +33,15 @@ public class DodgingPlayer : MonoBehaviour
     void Update()
     {
         // Get movement input
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
+        if (playerHP.playerDead == false)
+        {
+            //Multiple controller input
+            if (playerIndex == 1)
+            {
+                horizontal = Input.GetAxisRaw("Horizontal");
+                vertical = Input.GetAxisRaw("Vertical");
+            }
+        }
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
         // Gravity
         velocity.y += gravity * Time.deltaTime;
@@ -39,20 +49,7 @@ public class DodgingPlayer : MonoBehaviour
         // Walking
         if (direction.magnitude >= 0.1)
         {
-            //  When in inviswall
-            if (isInInvisibleWall == true && cantWalkForward == true && direction.z <= 0) // If in frontwall & not going forward
-            {
-                characterController.Move(direction * speed * Time.deltaTime); // Move not forwards
-            } 
-            else if (isInInvisibleWall == true && cantWalkForward == false && direction.z >= 0) // If in backwall & not going backward
-            {
-                characterController.Move(direction * speed * Time.deltaTime); // Move not backwards
-            }
-            // When out of wall
-            else if (isInInvisibleWall == false) 
-            {
-                characterController.Move(direction * speed * Time.deltaTime); // Move
-            }
+             characterController.Move(direction * speed * Time.deltaTime); // Move
         }
         // Jumping
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -61,11 +58,14 @@ public class DodgingPlayer : MonoBehaviour
         {
             velocity.y = -2f;
         }
-        if (Input.GetButtonDown("Jump"))
+        if (playerHP.playerDead == false)
         {
-            if (isGrounded)
+            if (Input.GetButtonDown("Jump"))
             {
-                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                if (isGrounded)
+                {
+                    velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                }
             }
         }
         // Turning playerbody

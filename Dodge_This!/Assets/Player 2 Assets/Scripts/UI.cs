@@ -11,6 +11,11 @@ public class UI : MonoBehaviour
     // UIHolder references
     public GameObject menuUIHolder;
     public GameObject gameUIHolder;
+    private void Start()
+    {
+        menuUIHolder.gameObject.SetActive(true);
+        gameUIHolder.gameObject.SetActive(false);
+    }
     void Update()
     {
         // Locking cursor
@@ -27,5 +32,6 @@ public class UI : MonoBehaviour
     {
         levelManager.levelActive = true;
         menuUIHolder.gameObject.SetActive(false);
+        gameUIHolder.gameObject.SetActive(true);
     }
 }

@@ -16,10 +16,10 @@ TagManager:
   - 
   - 
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - PlayerWall
+  - Player
+  - Shape
+  - InvisWall
   - 
   - 
   - 
