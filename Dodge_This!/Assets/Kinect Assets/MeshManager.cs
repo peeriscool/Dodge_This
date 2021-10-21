@@ -29,7 +29,7 @@ public static class MeshManager
     }
     public static bool Check()
     {
-        if (spawnpoints.Count == 4) //make vertex
+        if (spawnpoints.Count == 8) //make vertex
         {
             Debug.Log("we found 4 points for a mesh reseting and storing data");
             DataBank.Add(spawnpoints);

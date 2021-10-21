@@ -176,7 +176,7 @@ public class BodySourceView : MonoBehaviour
                 i++;
                 trackingdata.Add(jointObj);
                // Debug.Log("Filling array" + jointObj.transform.position);
-                if(i == 60)
+                if(i == 30)
                 {
                     GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
                     PlaceholdIndicators.Add(cube);

@@ -39,7 +39,11 @@ public class DrawMesh : MonoBehaviour
         {
             triangles = Trianglebase_Cube;
             Owner.gameObject.AddComponent<MeshRenderer>();
+            mesh = _mesh;
             Owner.gameObject.GetComponent<MeshFilter>().mesh = _mesh;
+            Owner.gameObject.AddComponent<MeshCollider>();
+            Owner.gameObject.AddComponent<Rigidbody>();
+
             vertices = data;
             UpdateMesh();
         }

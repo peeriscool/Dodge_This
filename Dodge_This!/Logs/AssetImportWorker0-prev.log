@@ -1,0 +1,1428 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16024 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Peer/Desktop/HKU jaar 2 2.0/Mixed reality keuze module/Dodge_This!/Dodge_This/Dodge_This!
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+12542
+Successfully changed project path to: C:/Users/Peer/Desktop/HKU jaar 2 2.0/Mixed reality keuze module/Dodge_This!/Dodge_This/Dodge_This!
+C:/Users/Peer/Desktop/HKU jaar 2 2.0/Mixed reality keuze module/Dodge_This!/Dodge_This/Dodge_This!
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Peer/Desktop/HKU jaar 2 2.0/Mixed reality keuze module/Dodge_This!/Dodge_This/Dodge_This!/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5206
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002340 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.889 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1681 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 2.338100 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.108000 ms MarkObjects: 1.810400 ms  DeleteObjects: 0.129200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Samples
+  artifactKey: Guid(eadeae51085e61d4382600c4338e525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(eadeae51085e61d4382600c4338e525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1d81a3b900e12cfbd71596405d9a39') in 0.019079 seconds 
+  Import took 0.023371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.041885 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.045880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036279 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001011 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.012224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049470 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000552 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.007276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064445 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000494 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049780 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000599 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.007075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053385 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000568 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043974 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000613 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043832 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000793 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036146 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000361 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032637 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000542 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042538 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000644 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.013598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068098 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001342 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.009661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059154 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000754 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050866 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000819 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037082 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000429 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034585 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000715 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036458 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000550 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039773 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000626 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042693 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000807 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046400 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000647 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080112 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001116 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072449 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000487 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.007241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053352 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002466 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.015075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062842 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000546 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.011551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044564 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000463 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049558 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000820 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.009080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043724 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000924 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035066 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000363 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042824 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000534 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035722 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000488 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032302 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000368 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031105 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000378 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045960 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000489 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046061 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000437 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037280 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000545 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043716 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000377 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040195 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000868 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032611 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000442 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037909 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000480 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041935 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000361 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035993 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000387 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043937 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000450 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035633 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000428 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033709 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000389 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046471 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000330 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037670 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034767 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000488 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040100 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000404 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037875 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000353 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051530 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000456 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041910 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000591 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031855 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000501 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033315 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000591 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037683 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000574 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033551 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000377 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049374 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000655 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033363 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000504 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031762 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000467 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036545 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000528 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035300 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000437 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041681 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008287 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.017479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033270 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000598 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.010744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030751 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000507 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037029 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003633 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.010002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045834 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000728 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042878 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000415 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038542 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000849 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.007671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047857 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000496 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045577 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000750 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040677 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000598 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051355 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000681 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037598 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000622 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024643 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000571 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031463 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000476 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040656 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000461 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047133 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000646 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051134 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000512 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037978 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000507 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036396 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000492 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039040 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000511 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082855 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000478 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.155259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033322 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000531 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057876 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000572 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041210 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000651 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037526 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000639 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041211 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000583 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045231 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000478 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036214 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000512 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082644 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000641 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.052125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048155 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001153 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.035880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036415 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000534 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132608 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000669 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.116004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036988 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000772 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.007181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057868 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000652 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052956 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000474 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050552 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000492 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044832 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000478 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040239 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000540 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036975 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000740 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095707 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000694 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.019240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061462 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001189 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.009581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046958 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000569 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065792 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001368 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046349 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000491 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042386 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000557 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048645 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001347 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043698 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000565 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055739 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000708 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.007133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046264 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000763 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043585 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000589 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052176 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000624 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.029844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053674 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000709 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068817 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003805 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.009714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094008 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000613 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035640 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000513 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034721 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000439 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032479 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000534 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048162 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000522 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040645 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000599 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036865 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000479 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030658 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000365 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.002977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025493 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000367 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026703 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000354 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037726 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000463 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032660 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000347 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031224 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000384 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046886 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000417 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042405 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000425 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059803 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000452 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058944 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000583 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051402 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000539 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.007772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037393 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000482 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.006534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035102 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000447 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045917 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000473 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027343 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000421 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030410 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000347 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029602 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000691 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030226 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000403 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030369 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000475 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040250 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000745 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032712 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000829 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033156 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000465 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034583 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000507 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.005135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034026 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000470 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.004060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044351 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000699 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.010725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044854 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000721 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.010555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038873 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000337 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.003098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053955 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000868 seconds  code(4) message(Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z')
+  ERROR: Build asset version error: assets/kinect assets/drawmesh.cs in SourceAssetDB has modification time of '2021-10-21T13:54:04.4379723Z' while content on disk has modification time of '2021-10-21T14:49:24.3631264Z'
+  Import took 0.009096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069847 seconds.
+  path: Assets/Kinect Assets/DrawMesh.cs
+  artifactKey: Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kinect Assets/DrawMesh.cs using Guid(e06271690490b274f91c69fefcb4ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7436bcaaf859e8702ff74e066f559420') in 0.112022 seconds 
+  Import took 0.118389 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
