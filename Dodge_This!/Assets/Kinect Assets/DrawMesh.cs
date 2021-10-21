@@ -42,7 +42,15 @@ public class DrawMesh : MonoBehaviour
             mesh = _mesh;
             Owner.gameObject.GetComponent<MeshFilter>().mesh = _mesh;
             Owner.gameObject.AddComponent<MeshCollider>();
-            Owner.gameObject.AddComponent<Rigidbody>();
+           // Owner.gameObject.GetComponent<MeshCollider>().convex = true;
+          Owner.gameObject.AddComponent<Rigidbody>();
+            Owner.gameObject.GetComponent<Rigidbody>().useGravity = false;
+            
+            Owner.gameObject.AddComponent<Shape>().rb = Owner.gameObject.GetComponent<Rigidbody>();
+            Owner.gameObject.GetComponent<Shape>().shapeSpeed = -2f;
+            Owner.gameObject.tag = "Shape";
+            Owner.gameObject.layer = 11;
+            
 
             vertices = data;
             UpdateMesh();
