@@ -14,13 +14,10 @@ public class PlayerHP : MonoBehaviour
     public bool canTakeDamage = true;
     public float invulnerabilityTime = 2f;
     public bool playerDead = false;
-
-
     private void Start()
     {
         canTakeDamage = true;
     }
-
     private void Update()
     {
         for (int i = 0; i < hitpoints.Count; i++) 

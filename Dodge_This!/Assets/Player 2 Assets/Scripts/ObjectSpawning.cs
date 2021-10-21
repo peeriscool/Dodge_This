@@ -15,24 +15,10 @@ public class ObjectSpawning : MonoBehaviour
     }*/
     void Update()
     {
-        // SPAWN FOR TESTING 
-        if (isSpawning == false && levelManager.levelActive)
-        { 
-            { 
-                StartCoroutine(SpawnObjectOnRythm());
-                isSpawning = true;
-            }
-        } 
+
     }
-    IEnumerator SpawnObjectOnRythm()
-    { 
-        yield return new WaitForSeconds(1);
-        //print("Spawned tempshape");
+    public void SpawnObject()
+    {
         Instantiate(spawnableShape, transform.position, transform.rotation);
-        //Keep spawning while game is active
-        if (isSpawning == true)
-        {
-            StartCoroutine(SpawnObjectOnRythm());
-        }
     }
 }

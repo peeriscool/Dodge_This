@@ -131,7 +131,6 @@ GameObject:
   m_Component:
   - component: {fileID: 13982093}
   - component: {fileID: 13982092}
-  - component: {fileID: 13982091}
   m_Layer: 10
   m_Name: DGCamera
   m_TagString: Untagged
@@ -139,14 +138,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &13982091
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13982089}
-  m_Enabled: 1
 --- !u!20 &13982092
 Camera:
   m_ObjectHideFlags: 0
@@ -794,6 +785,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 178455215}
+  ui: {fileID: 1160988572}
+  bottomPlayer1UI: {fileID: 1552099825}
+  bottomPlayer3UI: {fileID: 1056770401}
   kinectPlayer: {fileID: 1579338936}
   mainScreen: {fileID: 13982092}
   mainScreen1: {fileID: 1168298397}
@@ -809,6 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178455214}
   - component: {fileID: 178455215}
+  - component: {fileID: 178455216}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -824,7 +819,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178455213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -102.55307, y: 11.135696, z: 40.918304}
+  m_LocalPosition: {x: -64.63, y: 9.72, z: 135.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -849,6 +844,18 @@ MonoBehaviour:
   levelActive: 0
   playerThatWon: 0
   players: 1
+--- !u!114 &178455216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178455213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a48a449dc167642b4df3f33b410bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &189398277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,7 +1086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263597021}
   m_Layer: 5
-  m_Name: GameUIDP
+  m_Name: GameUIDP2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4146,7 +4153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1056770402}
   m_Layer: 5
-  m_Name: GameUIHDP1
+  m_Name: GameUIHDP3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5879,6 +5886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1579338937}
   - component: {fileID: 1579338936}
+  - component: {fileID: 1579338935}
   m_Layer: 0
   m_Name: KinektPlayerCamera
   m_TagString: Untagged
@@ -5886,6 +5894,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!81 &1579338935
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579338934}
+  m_Enabled: 1
 --- !u!20 &1579338936
 Camera:
   m_ObjectHideFlags: 0

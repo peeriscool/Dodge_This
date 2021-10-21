@@ -5,6 +5,9 @@ using UnityEngine;
 public class MultiScreenActivation : MonoBehaviour
 {
     public LevelManager levelManager;
+    public UI ui;
+    public GameObject bottomPlayer1UI;
+    public GameObject bottomPlayer3UI;
     public Camera kinectPlayer;
     public Camera mainScreen;
     public Camera mainScreen1;
@@ -27,6 +30,7 @@ public class MultiScreenActivation : MonoBehaviour
         if (levelManager.players == 1)
         {
             SplitTopCam(false, mainScreen);
+            BottomPlayerUI(false, bottomPlayer1UI);
         }
         else if (levelManager.players == 2)
         {
@@ -35,12 +39,14 @@ public class MultiScreenActivation : MonoBehaviour
             secondScreen1.gameObject.SetActive(false);
             SplitTopCam(true, mainScreen);
             kinectPlayer.targetDisplay = 1;
-
+            BottomPlayerUI(true, bottomPlayer1UI);
+            BottomPlayerUI(false, bottomPlayer3UI);
         } else if (levelManager.players == 3)
         {
             secondScreen.gameObject.SetActive(true);
             SplitTopCam(false, secondScreen);
             kinectPlayer.targetDisplay = 2;
+            BottomPlayerUI(true, bottomPlayer3UI);
         } else if (levelManager.players == 4)
         {
             SplitTopCam(true, secondScreen);
@@ -55,6 +61,17 @@ public class MultiScreenActivation : MonoBehaviour
         } else
         {
             topCamera.rect = new Rect(0, 0, 1, 1);
+        }
+    }
+    public void BottomPlayerUI(bool enable, GameObject bottomUIHolder)
+    {
+        if (enable == true)
+        {
+            bottomUIHolder.SetActive(true);
+        }
+        else if (enable == false)
+        {
+            bottomUIHolder.SetActive(false);
         }
     }
 }
