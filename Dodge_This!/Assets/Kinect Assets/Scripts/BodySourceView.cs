@@ -7,10 +7,13 @@ public class BodySourceView : MonoBehaviour
 {
     public Material BoneMaterial;
     public GameObject BodySourceManager;
-    
+    private List<GameObject> PlaceholdIndicators = new List<GameObject>();
+  
     private Dictionary<ulong, GameObject> _Bodies = new Dictionary<ulong, GameObject>();
     private BodySourceManager _BodyManager;
-    
+    protected List<Transform> trackingdata = new List<Transform>();
+    private int i; //fill value for trackingdata
+
     private Dictionary<Kinect.JointType, Kinect.JointType> _BoneMap = new Dictionary<Kinect.JointType, Kinect.JointType>()
     {
         { Kinect.JointType.FootLeft, Kinect.JointType.AnkleLeft },
@@ -137,32 +140,96 @@ public class BodySourceView : MonoBehaviour
             
             if(_BoneMap.ContainsKey(jt))
             {
-                targetJoint = body.Joints[_BoneMap[jt]];                
+                targetJoint = body.Joints[_BoneMap[jt]];
             }
             
             Transform jointObj = bodyObject.transform.Find(jt.ToString());
             jointObj.localPosition = GetVector3FromJoint(sourceJoint);
-            
+             
             LineRenderer lr = jointObj.GetComponent<LineRenderer>();
             if(targetJoint.HasValue)
             {
                 lr.SetPosition(0, jointObj.localPosition);
                 lr.SetPosition(1, GetVector3FromJoint(targetJoint.Value));
                 lr.SetColors(GetColorForState (sourceJoint.TrackingState), GetColorForState(targetJoint.Value.TrackingState));
+                    
             }
             else
             {
                 lr.enabled = false;
             }
+
             if (jt == Kinect.JointType.HandLeft)
             {
-                GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                cube.transform.position = jointObj.transform.position;
-                Debug.Log("hand");
+                //if trackingdata is full (i=30)
+                //{MakeMesh(trackingdata);
+                //trackingdata.Clear();}
+
+                //for (int xyz = 0; xyz < 30 ; xyz++)//make batch //trackingdata.Count
+                //{
+                    //todo check for similar data
+                    //trackingdata.Add(jointObj);
+                    
+               // }
+                //Peer code
+                
+                i++;
+                trackingdata.Add(jointObj);
+               // Debug.Log("Filling array" + jointObj.transform.position);
+                if(i == 30)
+                {
+                    GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    PlaceholdIndicators.Add(cube);
+                    cube.transform.position = jointObj.transform.position;
+                    MeshManager.AddSpawnPoints(jointObj.transform.position);
+                   if(MeshManager.Check())
+                    {
+                        //call drawmesh
+                        GameObject form = new GameObject();                     
+                        form.AddComponent<DrawMesh>();
+                        //form.GetComponent<DrawMesh>().Init(form, MeshManager.GetSpawnPoints(), new Mesh());
+                        form.GetComponent<DrawMesh>().drawcube(form,MeshManager.GetSpawnPoints().ToArray(),new Mesh());
+                        MeshManager.Flush(); //empties spawnpoints
+                        //reset trackingdata and remove cubes
+                        foreach (GameObject item in PlaceholdIndicators)
+                        {
+                            Destroy(item);
+                        }
+                    }
+                    Debug.Log("Number of tracking vectors: " + trackingdata.Count);
+                   
+                   i = 0;
+                }
             }
         }
     }
-    
+
+    public List<Transform> getTransformdata()//peer code
+    {
+        #region
+        //send vector3 instead of transform?
+        // Vector3 data = new Vector3();
+        //for(int i = 0; i < trackingdata.Length; i++)
+        //{
+        //    data = trackingdata[i].position;
+        //    // trackingdata[]
+        //    try
+        //    {
+        //        if (data.Equals(trackingdata[i + 1]))//check similar
+        //        {
+
+        //        }
+        //    }
+        //    catch (System.Exception)
+        //    {
+
+        //        throw;
+        //    }
+
+        //}
+        #endregion 
+        return trackingdata;
+    }
     private static Color GetColorForState(Kinect.TrackingState state)
     {
         switch (state)
