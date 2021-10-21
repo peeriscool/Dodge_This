@@ -12,12 +12,14 @@ public class UI : MonoBehaviour
     // UIHolder references
     public GameObject menuUIHolder;
     public GameObject gameUIHolder;
+    public GameObject gameUIHolder1;
     // Menu 
     public TMP_Text playerCountText;
     private void Start()
     {
         menuUIHolder.gameObject.SetActive(true);
         gameUIHolder.gameObject.SetActive(false);
+        gameUIHolder1.gameObject.SetActive(false);
     }
     void Update()
     {
@@ -37,6 +39,7 @@ public class UI : MonoBehaviour
         levelManager.levelActive = true;
         menuUIHolder.gameObject.SetActive(false);
         gameUIHolder.gameObject.SetActive(true);
+        gameUIHolder1.gameObject.SetActive(true);
     }
 
     public void MinusOnePlayer()

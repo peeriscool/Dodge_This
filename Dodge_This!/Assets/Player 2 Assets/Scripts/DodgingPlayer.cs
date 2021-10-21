@@ -32,14 +32,17 @@ public class DodgingPlayer : MonoBehaviour
 
     void Update()
     {
+        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
         // Get movement & jump input
         if (playerHP.playerDead == false && levelManager.levelActive == true)
         {
             //Multiple controller input
             GetMoveInputForEachPlayer();
             GetJumpInputsForEachPlayer();
+        } else
+        {
+            direction = Vector3.zero;
         }
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
         // Gravity
         velocity.y += gravity * Time.deltaTime;
         characterController.Move(velocity * Time.deltaTime);
