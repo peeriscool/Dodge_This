@@ -187,7 +187,8 @@ public class BodySourceView : MonoBehaviour
                         //call drawmesh
                         GameObject form = new GameObject();                     
                         form.AddComponent<DrawMesh>();
-                        form.GetComponent<DrawMesh>().Init(form, MeshManager.GetSpawnPoints(), new Mesh());
+                        //form.GetComponent<DrawMesh>().Init(form, MeshManager.GetSpawnPoints(), new Mesh());
+                        form.GetComponent<DrawMesh>().drawcube(form,MeshManager.GetSpawnPoints().ToArray(),new Mesh());
                         MeshManager.Flush(); //empties spawnpoints
                         //reset trackingdata and remove cubes
                         foreach (GameObject item in PlaceholdIndicators)
