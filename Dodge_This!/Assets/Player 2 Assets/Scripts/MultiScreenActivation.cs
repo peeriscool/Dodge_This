@@ -7,6 +7,7 @@ public class MultiScreenActivation : MonoBehaviour
     public LevelManager levelManager;
     public UI ui;
     public GameObject bottomPlayer1UI;
+    public GameObject bottomPlayer2UI;
     public GameObject bottomPlayer3UI;
     public Camera kinectPlayer;
     public Camera mainScreen;
@@ -20,6 +21,7 @@ public class MultiScreenActivation : MonoBehaviour
         secondScreen.gameObject.SetActive(false);
         secondScreen1.gameObject.SetActive(false);
         bottomPlayer1UI.SetActive(false);
+        bottomPlayer2UI.SetActive(false);
         bottomPlayer3UI.SetActive(false);
 
         for(int i = 0; i < Display.displays.Length; i++)
@@ -42,10 +44,12 @@ public class MultiScreenActivation : MonoBehaviour
             SplitTopCam(true, mainScreen);
             kinectPlayer.targetDisplay = 1;
             BottomPlayerUI(true, bottomPlayer1UI);
+            BottomPlayerUI(false, bottomPlayer2UI);
             BottomPlayerUI(false, bottomPlayer3UI);
         } else if (levelManager.players == 3)
         {
             secondScreen.gameObject.SetActive(true);
+            BottomPlayerUI(true, bottomPlayer2UI);
             SplitTopCam(false, secondScreen);
             kinectPlayer.targetDisplay = 2;
             BottomPlayerUI(true, bottomPlayer3UI);
@@ -55,9 +59,10 @@ public class MultiScreenActivation : MonoBehaviour
             secondScreen1.gameObject.SetActive(true);
         }
 
-        if (levelManager.song.stopSong)
+        if (levelManager.song.stopSong || levelManager.song.songComplete)
         {
-
+            bottomPlayer2UI.SetActive(false);
+            bottomPlayer3UI.SetActive(false);
         }
     }
     void SplitTopCam(bool split, Camera topCamera)
