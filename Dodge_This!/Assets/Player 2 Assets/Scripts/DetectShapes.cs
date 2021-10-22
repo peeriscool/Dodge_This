@@ -20,6 +20,7 @@ public class DetectShapes : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // Getting hit by a shape
+        Debug.Log(other.GetType());
         if (other.tag == "Shape")
         {
             print("HIT BY SHAPE");

@@ -6,6 +6,7 @@ using Kinect = Windows.Kinect;
 public class BodySourceView : MonoBehaviour 
 {
     public Material BoneMaterial;
+    public ObjectSpawningKinect Shapeholder;
     public GameObject BodySourceManager;
     private List<GameObject> PlaceholdIndicators = new List<GameObject>();
   
@@ -189,6 +190,7 @@ public class BodySourceView : MonoBehaviour
                         form.AddComponent<DrawMesh>();
                         //form.GetComponent<DrawMesh>().Init(form, MeshManager.GetSpawnPoints(), new Mesh());
                         form.GetComponent<DrawMesh>().drawcube(form,MeshManager.GetSpawnPoints().ToArray(),new Mesh());
+                        Shapeholder.kinectshapesadd(form);
                         MeshManager.Flush(); //empties spawnpoints
                         //reset trackingdata and remove cubes
                         foreach (GameObject item in PlaceholdIndicators)

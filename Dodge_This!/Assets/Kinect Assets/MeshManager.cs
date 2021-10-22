@@ -7,7 +7,6 @@ public static class MeshManager
     // Start is called before the first frame update
     public static List<Vector3> spawnpoints;
     private static List<List<Vector3>> DataBank; //keeps track of every 4 vector3 parsed
-
     // Static constructor is called at most one time, before any
     // instance constructor is invoked or member is accessed.
     static MeshManager()
