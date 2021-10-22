@@ -19,6 +19,8 @@ public class MultiScreenActivation : MonoBehaviour
         mainScreen1.gameObject.SetActive(false);
         secondScreen.gameObject.SetActive(false);
         secondScreen1.gameObject.SetActive(false);
+        bottomPlayer1UI.SetActive(false);
+        bottomPlayer3UI.SetActive(false);
 
         for(int i = 0; i < Display.displays.Length; i++)
         {
@@ -51,6 +53,11 @@ public class MultiScreenActivation : MonoBehaviour
         {
             SplitTopCam(true, secondScreen);
             secondScreen1.gameObject.SetActive(true);
+        }
+
+        if (levelManager.song.stopSong)
+        {
+
         }
     }
     void SplitTopCam(bool split, Camera topCamera)

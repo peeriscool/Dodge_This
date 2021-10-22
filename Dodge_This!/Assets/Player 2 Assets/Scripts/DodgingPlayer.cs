@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class DodgingPlayer : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class DodgingPlayer : MonoBehaviour
     public CharacterController characterController;
     public PlayerHP playerHP;
     public LevelManager levelManager;
+    public TMP_Text playerState;
+    public PlaceOnSongBeat song;
     // Multiple players
     public int playerIndex = 0;
     // Walk variables
@@ -27,7 +31,7 @@ public class DodgingPlayer : MonoBehaviour
     public bool isCrouching = false;
     void Start()
     {
-
+        
     }
 
     void Update()
@@ -56,6 +60,19 @@ public class DodgingPlayer : MonoBehaviour
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
+        }
+        // Player dead or alive
+        if (!playerHP.playerDead)
+        {
+            playerState.text = "Player" + (playerIndex + 1) + " survived!";
+        } else if (playerHP.playerDead)
+        {
+            playerState.text = "Player" + (playerIndex + 1) + " died :<";
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(0);
         }
     }
     void GetMoveInputForEachPlayer()

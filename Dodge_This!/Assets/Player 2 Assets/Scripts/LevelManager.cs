@@ -5,11 +5,15 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     // References
-    ObjectSpawning objectSpawning;
+    public PlaceOnSongBeat song;
     public GameObject dodgingPlayer;
     public GameObject dodgingPlayer1;
     public GameObject dodgingPlayer2;
     public GameObject dodgingPlayer3;
+    public PlayerHP playerHP;
+    public PlayerHP playerHP1;
+    public PlayerHP playerHP2;
+    public PlayerHP playerHP3;
     // Level state
     public bool levelActive = false;
     public int playerThatWon = 0; // 0 = No one has won (yet)
@@ -25,6 +29,32 @@ public class LevelManager : MonoBehaviour
     {
         // Enabling and disabling dodging players
         EnableDisablePlayerObjects();
+        // Dodgingplayers lose
+        if (players == 1)
+        {
+            if (playerHP.playerDead)
+            {
+                song.stopSong = true;
+            }
+        } else if (players == 2)
+        {
+            if (playerHP.playerDead && playerHP1.playerDead)
+            {
+                song.stopSong = true;
+            }
+        } else if (players == 3)
+        {
+            if (playerHP.playerDead && playerHP1.playerDead && playerHP2.playerDead)
+            {
+                song.stopSong = true;
+            }
+        } else if (players == 4)
+        {
+            if (playerHP.playerDead && playerHP1.playerDead && playerHP2.playerDead && playerHP3.playerDead)
+            {
+                song.stopSong = true;
+            }
+        }
     }
 
     void EnableDisablePlayerObjects()
